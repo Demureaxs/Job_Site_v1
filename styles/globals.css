@@ -17,3 +17,9 @@ body {
   background-position: center;
   background-blend-mode: screen;
 }
+.clip2 {
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+  background-image: url('https://cdn.pixabay.com/photo/2020/01/15/08/22/kot-4767273_1280.jpg');
+  background-size: cover;
+  background-position: center;
+}
