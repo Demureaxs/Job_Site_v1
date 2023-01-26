@@ -179,31 +179,31 @@ const Application = () => {
       <section className=" text-sm flex h-fit bg-slate-100 max-w-7xl mx-auto text-gray-700 border-r border-l border-gray-300 rounded-sm overflow-hidden">
         <div className=" flex flex-col justify-between w-1/4 bg-gradient-to-br from-slate-100 to-slate-200 h-[900px] border-r border-gray-300">
           <nav className=" flex flex-col">
-            <div className=" py-5 pl-5 flex items-center border-b border-slate-300">
+            <div className=" py-5 pl-5 flex items-center border-b border-slate-300 hover:bg-gradient-to-br from-gray-200 to-gray-300">
               <MdSpaceDashboard className="h-6 w-6" />
               <Link className="pl-2" href="/app">
                 Dashboard
               </Link>
             </div>
-            <div className=" py-5 pl-5 flex items-center border-b border-slate-300">
+            <div className=" py-5 pl-5 flex items-center border-b border-slate-300 hover:bg-gradient-to-br from-gray-200 to-gray-300">
               <MdBookmarks className="h-6 w-6" />
               <Link className="pl-2" href="/app">
                 Your picks
               </Link>
             </div>
-            <div className=" py-5 pl-5 flex items-center border-b border-slate-300">
+            <div className=" py-5 pl-5 flex items-center border-b border-slate-300 hover:bg-gradient-to-br from-gray-200 to-gray-300">
               <FaAddressBook className="h-6 w-6" />
               <Link className="pl-2" href="/app">
                 Contacts
               </Link>
             </div>
-            <div className=" py-5 pl-5 flex items-center border-b border-slate-300">
+            <div className=" py-5 pl-5 flex items-center border-b border-slate-300 hover:bg-gradient-to-br from-gray-200 to-gray-300">
               <MdChat className="h-6 w-6" />
               <Link className="pl-2" href="/app">
                 Chat
               </Link>
             </div>
-            <div className=" py-5 pl-5 flex items-center border-b border-slate-300">
+            <div className=" py-5 pl-5 flex items-center border-b border-slate-300 hover:bg-gradient-to-br from-gray-200 to-gray-300">
               <MdPeople className="h-6 w-6" />
               <Link className="pl-2" href="/app">
                 Profile
