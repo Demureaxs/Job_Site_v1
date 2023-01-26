@@ -25,11 +25,11 @@ const people = [
       'https://images.pexels.com/photos/289586/pexels-photo-289586.jpeg',
   },
   {
-    name: 'Hillary Brownshaft',
-    age: 48,
-    skills: 'Good at cleaning Windows and a fantastic chef',
+    name: 'Crazy Frog',
+    age: 2,
+    skills: 'Jay from the inbetweeners loves him dearly',
     profile:
-      'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://i.guim.co.uk/img/media/87929f76cb1cbd05350d5a7b8fe759857a2e7e78/388_698_3299_1979/master/3299.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=875b2f73d7fb4832f0b1720a0851af51',
     background:
       'https://images.pexels.com/photos/707915/pexels-photo-707915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
@@ -52,11 +52,11 @@ const people = [
       'https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
   {
-    name: 'Roger Analbleed',
-    age: 8,
-    skills: 'Professional pirate',
+    name: 'Jay',
+    age: 16,
+    skills: 'Completed it mate, likes to shout at bus stops',
     profile:
-      'https://images.pexels.com/photos/6217815/pexels-photo-6217815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://static.independent.co.uk/2022/09/29/06/newFile.jpg?width=1200',
     background:
       'https://images.pexels.com/photos/1069798/pexels-photo-1069798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
   },
@@ -136,7 +136,7 @@ const peopleMap = people.map((item, index) => {
           />
         </div>
         <div className=" absolute top-0 left-0 h-2/5 w-full flex justify-start items-center pl-4">
-          <div className=" h-32 w-32 rounded-full border-2 border-white bg-white overflow-hidden ">
+          <div className=" h-28 w-28 rounded-full border-2 border-white bg-white overflow-hidden ">
             <img className="h-full w-full object-cover" src={item.profile} />
           </div>
         </div>
@@ -177,7 +177,7 @@ const Application = () => {
     <div className="bg-gradient-to-br from-slate-200 to-slate-300 pb-36 ">
       <Header />
       <section className=" text-sm flex h-fit bg-slate-100 max-w-7xl mx-auto text-gray-700 border-r border-l border-gray-300 rounded-sm overflow-hidden">
-        <div className=" flex flex-col justify-between w-1/4 bg-gradient-to-br from-slate-100 to-slate-200 h-[900px] border-r border-gray-300">
+        <div className=" hidden sm:flex flex-col justify-between w-1/4 bg-gradient-to-br from-slate-100 to-slate-200 h-[900px] border-r border-gray-300">
           <nav className=" flex flex-col">
             <div className=" py-5 pl-5 flex items-center border-b border-slate-300 hover:bg-gradient-to-br from-gray-200 to-gray-300">
               <MdSpaceDashboard className="h-6 w-6" />
