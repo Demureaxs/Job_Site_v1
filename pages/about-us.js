@@ -1,5 +1,5 @@
-const Page = () => {
+const AboutUs = () => {
   return <h1>I am a massive twat</h1>;
 };
 
-export default Page;
+export default AboutUs;
